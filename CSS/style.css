@@ -1,0 +1,47 @@
+*,::before ::after{
+    box-sizing: border-box;
+    margin: O;
+    padding:0;
+}
+
+
+.maRed{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 100px auto 0;
+    animation: color-change 5s linear infinite;
+}
+
+@keyframes color-change {
+    2% {
+      background-color: red;
+     
+      
+
+    30%{
+        background-color: orange;
+    }
+    
+    50% {
+      background-color: green;
+      border-radius: 300px;
+      width: 100px;
+      height: 100px;
+     
+      
+    }
+    
+    100% {
+      background-color: #FFA700;
+    }
+  }
+
+  @keyframes pulse{
+    to {
+       
+                transform: scale(5);
+                transition: transform 330ms ease-in-out;
+            }
+      
+}
